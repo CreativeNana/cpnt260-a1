@@ -1,0 +1,29 @@
+.full-vh {
+  height: 100vh;
+}
+
+.vp-centre {
+  display: flex;
+}
+
+.vp-centre > * {
+  margin: auto;
+}
+
+ul {
+  width:100%; 
+  list-style-type: none;
+  position:relative;
+
+  padding-left: 0;
+  text-align: center;
+}
+
+li {
+  height:100%; 
+  width:50%; 
+  float: left;
+
+  display: inline-block;
+  position:relative; 
+}
